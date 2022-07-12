@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { ProductProvider } from "./context";
 ReactDOM.render(
   <ProductProvider>
-    <Router>
+    <Router basename="/estore-frontend/">
       <App />
     </Router>
   </ProductProvider>,
